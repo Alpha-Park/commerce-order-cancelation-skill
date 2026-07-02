@@ -1,3 +1,3 @@
-﻿# commerce-order-cancelation-skill
+# commerce-order-cancelation-skill
 
-Ready to use SDK library for commerce-order-cancelation-skill.
+Production-ready agent skill for Order cancellation refunds.

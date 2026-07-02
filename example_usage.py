@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import OrderCancelationClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = OrderCancelationClient()
+    print(c.cancel_order("ORD-902", "shipped"))
 if __name__ == '__main__':
     main()
